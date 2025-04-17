@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WanderNest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="flex flex-col sm:flex-row sm:justify-between sm:items-center px-6 sm:px-10 py-4 shadow-md gap-2 sm:gap-0">
+    <div class="flex items-center justify-center sm:justify-start space-x-2">
+      <img src="assets/logo.png" alt="WanderNest Logo" class="h-10 w-10 object-contain" />
+      <span class="text-xl sm:text-2xl font-bold text-blue-700">WanderNest</span>
+    </div>
+    <div class="flex justify-center flex-wrap gap-2 sm:gap-4">
+      <a href="#" class="px-4 py-2 rounded-full hover:bg-blue-100 text-base sm:text-lg">Home</a>
+      <a href="#" class="px-4 py-2 rounded-full hover:bg-blue-100 text-base sm:text-lg">Destinations</a>
+      <a href="#" class="px-4 py-2 rounded-full hover:bg-blue-100 text-base sm:text-lg">About</a>
+      <a href="#" class="px-4 py-2 rounded-full hover:bg-blue-100 text-base sm:text-lg">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative mt-4 mx-6 overflow-hidden rounded-2xl shadow-lg">
+    <img src="assets/travelnature.png" alt="Mountains" class="w-full h-[80vh] object-cover rounded-2xl" />
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40 rounded-2xl">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-2 text-center px-4">Discover Beautiful Places</h2>
+      <p class="text-base sm:text-lg mb-4 text-center px-4">Plan your perfect trip with WanderNest</p>
+      <button class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full text-base sm:text-lg font-semibold">Explore Now</button>
+    </div>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section class="mt-10 px-6 sm:px-10">
+    <h3 class="text-center text-2xl font-semibold mb-6">Popular Destinations</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div class="text-center">
+        <img src="assets/paris.png" class="rounded-xl h-48 w-full object-cover transform transition duration-300 hover:scale-105 cursor-pointer" />
+        <p class="mt-2 font-medium">Paris</p>
+        <p class="text-sm text-gray-600">City of lights and love</p>
+      </div>
+      <div class="text-center">
+        <img src="assets/bali.png" class="rounded-xl h-48 w-full object-cover transform transition duration-300 hover:scale-105 cursor-pointer" />
+        <p class="mt-2 font-medium">Bali</p>
+        <p class="text-sm text-gray-600">Tropical paradise island</p>
+      </div>
+      <div class="text-center">
+        <img src="assets/newyork.png" class="rounded-xl h-48 w-full object-cover transform transition duration-300 hover:scale-105 cursor-pointer" />
+        <p class="mt-2 font-medium">New York</p>
+        <p class="text-sm text-gray-600">The city that never sleeps</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why WanderNest -->
+  <section class="mt-16 py-10 bg-blue-50 text-center px-6">
+    <h3 class="text-2xl font-bold mb-4">Why WanderNest?</h3>
+    <p class="max-w-3xl mx-auto text-base sm:text-lg">
+      We bring the best travel destinations at your fingertips with curated guides,
+      breathtaking visuals, and budget-friendly trip plans. Start your journey today!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-sm text-gray-500">
+    © 2025 WanderNest. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
